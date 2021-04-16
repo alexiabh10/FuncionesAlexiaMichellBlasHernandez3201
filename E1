@@ -1,0 +1,29 @@
+% FuncionLineal
+% Título: Funciones
+% Descripción: Script para graficar una funcion de la forma f (x) =16-x^2/4-x 
+% Autor: Alexia Michell Blas Hernandez  (alexiabh10)  michhernandez1001@gmail.com
+% Fecha: 20210415
+% Sesion: 1
+
+% y=((16-x.^2))./((4-x))
+% si se graficá su comportamiento es lineal
+% ^
+% y |
+% |   
+% | ____________
+% | 
+% | _____________>x
+%
+
+% limpiar variables
+ clear
+% Ejemplo f (x) = a
+% Rango de -5..-2 en i = 0.1
+ x = -5: 1 :5; 
+% Valor de la función 
+ y=((16-x.^2))./((4-x))
+% Dibujar x, y
+ plot(x , y);
+% Titulo ("f (x)=((16-x.^2))./((4-x))
+% Etiqueta para x
+ xlabel ( "x");
